@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/billing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="billing">
+            <div class="title">Billing Details</div>
+            <div class="content">
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">First Name</span>
+                            <input type="text" placeholder="First Name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Last Name</span>
+                            <input type="text" placeholder="Last Name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Street Address</span>
+                            <input type="text" placeholder="House Number and Street Name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Town/City</span>
+                            <input type="text" placeholder="Town/City" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">State/Zone</span>
+                            <select name="State/zone" id="state/zone">
+                                <option value="volvo">Bagmati</option>
+                                <option value="saab">Karnali</option>
+                                <option value="opel">3</option>
+                                <option value="audi">4</option>
+                            </select>
+
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Phone</span>
+                            <input type="text" placeholder="Phone" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Email</span>
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="order">
+            <section class="content-section">
+                <div class="title">Your Order</div>
+                <div class="product">
+                    <p id>Product</p>
+                    <p>Product</p>
+                </div>
+                <hr>
+                <div class="subTotal">
+                    <p>Order</p>
+                    <p>Rs. 1198.00</p>
+                </div>
+                <hr>
+                <div class="total">
+                    <p>Order</p>
+                    <p>Rs. 1198.00</p>
+                </div>
+                <hr>
+                <div class="textContent">
+                    <p>Cash On Delivery</p>
+                    <p>Pay With Cash Upon Delivery</p>
+                </div>
+                <hr>
+                <button class="btn btn-primary btn-purchase" type="button">Purchase</button>
+            </section>
+        </div>
+    </div>
+
+</body>
+
+</html>
